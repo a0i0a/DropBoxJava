@@ -19,10 +19,10 @@ import com.dropbox.core.v2.DbxFiles.UploadSessionAppendBuilder;
 import com.dropbox.core.v2.DbxFiles.UploadSessionCursor;
 import com.dropbox.core.v2.DbxFiles.UploadSessionStartResult;
 
-public class A {
+public class UrlUploadMain {
 	public static final long MB = 1024L * 1024L;
 	static final String ACCESS_TOKEN = "<access_token>";
-	static final String url_d = "http://onto.herokuapp.com/download/OCA%20Oracle%20Certified%20Associate%20Java%20SE%208%20[2014]/OCA%20Oracle%20Certified%20Associate%20Java%20SE%208%20[2014].pdf";
+	static final String url_d = "<your url here>";
 	
 	public static void main(String[] args) {
 		// Create Dropbox client
